@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <script src="prefixfree.js"></script>
+    <title>Happy birthday card</title>
+  </head>
+  <body>
+
+    <div id="outside">
+
+      <p id="outside-title">
+        Happy Birthday!
+      </p>
+
+      <img src="img/robot.png" id="outside-pic">
+
+      <p>
+        <button onclick="open_card()">Click to open</button>
+      </p>
+
+    </div>
+
+    <div id="inside">
+
+      <p id="inside-title">
+        Happy Birthday!
+      </p>
+
+      <img id="inside-pic" src="img/person.png">
+
+      <p id="message">
+        Your message is here!
+      </p>
+
+      <p>
+        <button onclick="close_card()">Click to close</button>
+      </p>
+
+    </div>
+
+  </body>
+</html>
